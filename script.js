@@ -42,6 +42,7 @@ form.addEventListener("submit", function (e) {
             <p>Location: ${data.location || "Not specified"}</p>
             <p>Followers: ${data.followers}</p>
             <p>Following: ${data.following}</p>
+            <p>BIO: ${data.bio || "N/A"}</p>
             <p>Public Repositories: ${data.public_repos}</p>
           </div>
         </div>
