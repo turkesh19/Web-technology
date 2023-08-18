@@ -20,14 +20,14 @@ h1 {
     
 }
 .form-group {
-    margin-top: 10%;
+    margin-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 .form-control{
-    margin-top: 25px;
+    margin-top: 5%;
 }
 input:focus{
     outline: none;
@@ -50,31 +50,19 @@ text-align: center;
     margin-left: 1.4rem;
 }
 .java img {
-    width: 200px;
-    border-radius: 100px;
+    width: 180px;
+    border-radius: 90px;
 }
 #detail
 {
     text-align: justify;
-}
-/* .button {
-    display: flex;
-    background-color: #4CAF50;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 20px;
-    cursor: pointer;
-  } */
-  
+} 
   .form-group button img{
     width: 25px;
   }
   .form-group button
   {
+    margin-top: 3%;
     border: 0;
     border-radius: 50%;
     width: 60px;
@@ -123,4 +111,13 @@ text-align: center;
     min-width: 100%;
     left: 0;
     right: 0;
+}
+.java a{
+    text-decoration: none;
+    color: black;
+}
+#notfound {
+text-align: center;
+font-weight: 300;
+font-family: JetBrains Mono,"Sans-serif"; 
 }
