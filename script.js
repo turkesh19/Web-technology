@@ -22,9 +22,8 @@ form.addEventListener("submit", function (e) {
 
       document.getElementById("result").innerHTML = `
       <link rel="stylesheet" href="style.css" />
-      <br><br>
       <div class="java">
-        <img src="${data.avatar_url}" alt="${data.login}" class="avatar">
+       <a target="_blank" href="https://github.com/${data.login}"> <img src="${data.avatar_url}" alt="${data.login}" class="avatar"></a>
         <h2>${data.login}</h2>
         <p>Name: ${data.name}</p>
         <p>Location: ${data.location || "Not specified"}</p>

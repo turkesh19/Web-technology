@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <br /><br /><br />
-    <div>
+    <div class="topnav">
       <h1>Github User Search</h1>
-      <br />
+    </div>
+    <div class="container">
       <form id="myform" autocomplete="off">
         <div class="form-group">
           <input
@@ -19,14 +19,13 @@
             id="search"
             placeholder="Enter username"
           />
-        </div>
-        <br />
-        <div class="form-group">
-          <button class="button">Search User</button>
+          <button type="submit">
+            <img src="images/search.png" alt="Search" />
+          </button>
         </div>
       </form>
       <div id="result"></div>
-      <script src="script.js"></script>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
