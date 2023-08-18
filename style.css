@@ -34,15 +34,28 @@ input:focus{
 }
 .java
 {
+margin-top: 1%;
+align-items:center;
+justify-content: center;
+display: flex;
+text-align: center;
+}
+.javaalign{
     color: #FAF0E6;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     line-height: .5;
+    margin-left: 1.4rem;
 }
 .java img {
-    width: 150px;
-    border-radius: 75px;
-    text-align: center;
+    width: 200px;
+    border-radius: 100px;
+}
+#detail
+{
+    text-align: justify;
 }
 /* .button {
     display: flex;

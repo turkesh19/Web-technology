@@ -23,13 +23,15 @@ form.addEventListener("submit", function (e) {
       document.getElementById("result").innerHTML = `
       <link rel="stylesheet" href="style.css" />
       <div class="java">
-       <a target="_blank" href="https://github.com/${data.login}"> <img src="${data.avatar_url}" alt="${data.login}" class="avatar"></a>
-        <h2>${data.login}</h2>
+      <a target="_blank" href="https://github.com/${data.login}"> <img src="${data.avatar_url}" alt="${data.login}" class="avatar"></a>
+      <div class="javaalign">
+      <h2>${data.login}</h2>
         <p>Name: ${data.name}</p>
         <p>Location: ${data.location || "Not specified"}</p>
         <p>Followers: ${data.followers}</p>
         <p>Following: ${data.following}</p>
         <p>Public Repositories: ${data.public_repos}</p>
+        </div>
         </div>
       `;
     })
