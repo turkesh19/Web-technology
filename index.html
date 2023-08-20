@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags for character encoding and responsive design -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Git</title>
+    <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Header section with the page title -->
     <div class="topnav">
       <h1>Github User Search</h1>
     </div>
+
+    <!-- Main content container -->
     <div class="container">
+      <!-- Form for user input -->
       <form id="myform" autocomplete="off">
         <div class="form-group">
+          <!-- Input field for entering the GitHub username -->
           <input
             type="text"
             class="form-control"
             id="search"
             placeholder="Enter username"
           />
+          <!-- Button to submit the form -->
           <button type="submit">
+            <!-- Search icon image -->
             <img src="images/search.png" alt="Search" />
           </button>
         </div>
       </form>
+
+      <!-- Container to display search results -->
       <div id="result"></div>
     </div>
+
+    <!-- Include the JavaScript file for interactivity -->
     <script src="script.js"></script>
   </body>
 </html>
